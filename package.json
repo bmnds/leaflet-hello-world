@@ -1,0 +1,22 @@
+{
+    "name": "leaflet-hello-world",
+    "description": "Study of Leaflet mapping library",
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bmnds/leaflet-hello-world"
+    },
+    "dependencies": {
+        "leaflet": "^1.6.0",
+        "leaflet-defaulticon-compatibility": "^0.1.1",
+        "leaflet-measure": "^3.1.0"
+    },
+    "devDependencies": {
+        "css-loader": "^3.4.2",
+        "file-loader": "^5.0.2",
+        "style-loader": "^1.1.3",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-combine-loaders": "^2.0.4"
+    }
+}
