@@ -1,4 +1,9 @@
+const CopyPlugin = require('copy-webpack-plugin');
+
 module.exports = {
+  devServer: {
+    contentBase: './dist',
+  },
   module: {
     rules: [
       {
@@ -17,7 +22,16 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [{ loader: "file-loader" }]
+      },
+      {
+        test: /\.(gpx)$/,
+        use: [{ loader: "file-loader" }]
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyPlugin([
+      { from: 'leaflet-gpx/dist/*.png', to: 'dist/images' },
+    ]),
+  ],
 };
