@@ -34,6 +34,4 @@ Due to Leaflet's use of `url` inside `.css`, a compatibility plugin had to be im
 
 ### [leaflet-gpx](https://github.com/mpetazzoni/leaflet-gpx)
 
-# demo
-
-[maptracks with leaflet.js](https://maptracks-a9a31.firebaseapp.com/)
+# [live demo](https://maptracks-a9a31.firebaseapp.com/)
